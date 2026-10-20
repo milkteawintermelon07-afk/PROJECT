@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get to know Carla Mae M. Elliot, a college student who loves food, photography, stories, and music.">
+
+  <title>Carla Mae M. Elliot | My Little Corner</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="header">
+    <a class="logo" href="#home" aria-label="Carla's homepage">car<span>♡</span></a>
+
+    <button class="menu-toggle" id="menuToggle"
+      type="button" aria-label="Open navigation"
+      aria-expanded="false">☰</button>
+
+    <nav class="nav" id="navigation" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+
+      <button class="theme-btn" id="themeToggle" type="button">
+        ♡ Change Colors
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HOME -->
+    <section class="hero section" id="home">
+
+      <div class="hero-text">
+        <p class="eyebrow">WELCOME TO MY LITTLE CORNER ♡</p>
+
+        <h1>Hey, lovely! <span>♡</span></h1>
+
+        <p class="intro">
+          Welcome to my personal website! I'm Carla Mae M. Elliot,
+          but you can call me Car. Here, you'll get to know me,
+          my interests, and the things I enjoy. Feel free to explore!
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="#about">Get to Know Me ♡</a>
+
+          <button class="btn secondary" id="welcomeBtn" type="button">
+            Say Hello!
+          </button>
+        </div>
+
+        <p class="small-note">
+          Little moments, favorite stories, and memories worth keeping. ✿
+        </p>
+      </div>
+
+      <div class="portrait-wrap">
+        <div class="portrait-card">
+          <img src="me.jpg"
+               alt="Portrait of Carla Mae M. Elliot">
+
+          <div class="portrait-caption">
+            <span class="caption-heart">♡</span>
+
+            <div>
+              <strong>Carla Mae M. Elliot</strong>
+              <p>But you can call me Car!</p>
+            </div>
+          </div>
+        </div>
+
+        <span class="floating flower" aria-hidden="true">✿</span>
+        <span class="floating sparkle" aria-hidden="true">✧</span>
+      </div>
+
+    </section>
+
+    <!-- ABOUT ME -->
+    <section class="section" id="about">
+
+      <div class="section-heading">
+        <p class="eyebrow">GET TO KNOW ME ♡</p>
+        <h2>A Little About Me <span>✿</span></h2>
+        <p>Here's a little peek into my life and the things I love.</p>
+      </div>
+
+      <div class="about-grid">
+
+        <article class="card">
+          <span class="card-icon">🌷</span>
+          <h3>Personal Information</h3>
+
+          <p><strong>Full Name:</strong> Carla Mae M. Elliot</p>
+          <p><strong>Nickname:</strong> Car</p>
+
+          <p>
+            My full name is Carla Mae M. Elliot, but you can call me Car.
+            That's what my family and friends usually call me.
+          </p>
+        </article>
+
+        <article class="card">
+          <span class="card-icon">🎓</span>
+          <h3>My Education</h3>
+
+          <p>
+            <strong>School:</strong>
+            Bestlink College of the Philippines
+          </p>
+
+          <p><strong>Year Level:</strong> Second-Year College</p>
+
+          <p>
+            <strong>Program:</strong>
+            Bachelor of Science in Information Technology (BSIT)
+          </p>
+
+          <p>
+            I'm currently a second-year college student at Bestlink
+            College of the Philippines, taking up a Bachelor of Science
+            in Information Technology (BSIT).
+          </p>
+        </article>
+
+      </div>
+
+      <article class="card interests-card">
+        <span class="card-icon">🎀</span>
+        <h3>My Interests and Hobbies ♡</h3>
+
+        <p>
+          I enjoy eating and exploring different kinds of food.
+          I also love taking pictures and videos, especially of my
+          loved ones, because I enjoy keeping memories of the people
+          who matter to me. In my free time, I like watching horror
+          and action movies, reading manhwa and manga, including BL
+          stories, and listening to music when I want to enjoy some
+          peaceful time alone.
+        </p>
+
+        <div class="interest-list">
+          <span>🍜 Exploring different foods</span>
+          <span>📸 Taking pictures and videos</span>
+          <span>🫶 Memories with loved ones</span>
+          <span>🎬 Horror and action movies</span>
+          <span>📚 Manhwa, manga, and BL</span>
+          <span>🎧 Music and alone time</span>
+        </div>
+
+        <button class="text-btn" id="readMoreBtn" type="button"
+          aria-expanded="false" aria-controls="extraAbout">
+          A Little More About Me +
+        </button>
+
+        <p class="about-extra" id="extraAbout" hidden>
+          I appreciate the simple things in life, whether it's trying
+          something delicious, saving a special memory, getting lost
+          in a good story, or enjoying my favorite songs on my own.
+          These little things make my days more meaningful.
+        </p>
+      </article>
+
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+
+      <div class="section-heading">
+        <p class="eyebrow">LEARNING AS I GO</p>
+        <h2>My Skills <span>✧</span></h2>
+        <p>Skills I'm developing as a student and as a person.</p>
+      </div>
+
+      <div class="skills-grid">
+
+        <article class="card skill-card">
+          <span class="card-icon">💻</span>
+          <h3>Technical Skills</h3>
+
+          <ul>
+            <li>HTML and webpage structure</li>
+            <li>CSS styling and layouts</li>
+            <li>Basic JavaScript</li>
+            <li>Computer and internet fundamentals</li>
+          </ul>
+        </article>
+
+        <article class="card skill-card">
+          <span class="card-icon">🌸</span>
+          <h3>Personal Skills</h3>
+
+          <ul>
+            <li>Creativity and attention to detail</li>
+            <li>Willingness to learn</li>
+            <li>Organization and time management</li>
+            <li>Communication and teamwork</li>
+          </ul>
+        </article>
+
+      </div>
+
+      <p class="small-note">
+        Please edit these examples to reflect the skills you have
+        actually learned and practiced.
+      </p>
+
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">MY WORK IN PROGRESS</p>
+        <h2>Little Projects, Big Learning <span>♡</span></h2>
+        <p>A collection of my learning activities and class projects.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="card project-card">
+          <a class="project-art art-one project-cover-link"
+             href="https://milkteawintermelon07-afk.github.io/MY-MULTIMEDIA-PAGE/"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Open Multi-media Page in a new tab">HTML ♡<span class="cover-hint">Open project ↗</span></a>
+          <div class="project-body">
+            <span class="project-label">HTML</span>
+            <h3>Multi-media Page</h3>
+            <p>A webpage activity where I practiced organizing content and creating a multimedia website using HTML.</p>
+            <a class="project-link" href="https://milkteawintermelon07-afk.github.io/MY-MULTIMEDIA-PAGE/" target="_blank" rel="noopener noreferrer">View Project ↗</a>
+          </div>
+        </article>
+
+        <article class="card project-card">
+          <a class="project-art art-two project-cover-link"
+             href="https://github.com/milkteawintermelon07-afk/TC-DAY"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Open TC Day GitHub repository in a new tab">✿ TC DAY<span class="cover-hint">Open repository ↗</span></a>
+          <div class="project-body">
+            <span class="project-label">WEB DESIGN</span>
+            <h3>TC Day</h3>
+            <p>A web project showcasing my practice in website development and creative page design.</p>
+            <a class="project-link" href="https://milkteawintermelon07-afk.github.io/TC-DAY/" target="_blank" rel="noopener noreferrer">View Project↗</a>
+          </div>
+        </article>
+
+        <article class="card project-card">
+          <a class="project-art art-three project-cover-link"
+             href="https://ephemeral-monstera-b756c2.netlify.app/"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Open Creative Web Project in a new tab">JS ♡<span class="cover-hint">Open project ↗</span></a>
+          <div class="project-body">
+            <span class="project-label">WEB DEVELOPMENT</span>
+            <h3>Creative Web Project</h3>
+            <p>A website project where I explored webpage layouts, styling, and publishing a website online.</p>
+            <a class="project-link" href="https://ephemeral-monstera-b756c2.netlify.app/" target="_blank" rel="noopener noreferrer">View Project ↗</a>
+          </div>
+        </article>
+
+        <article class="card project-card">
+          <a class="project-art art-four project-cover-link"
+             href="https://student-profile-cars1f2718.netlify.app/"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Open Student Profile in a new tab">♡ PROFILE<span class="cover-hint">Open profile ↗</span></a>
+          <div class="project-body">
+            <span class="project-label">HTML &amp; CSS</span>
+            <h3>Student Profile</h3>
+            <p>A student profile website designed to present personal information and practice organizing webpage content.</p>
+            <a class="project-link" href="https://student-profile-cars1f2718.netlify.app/" target="_blank" rel="noopener noreferrer">View Profile ↗</a>
+          </div>
+        </article>
+      </div>
+      <p class="small-note">Select a project cover or its link to open it in a new tab. The TC Day link opens its GitHub repository.</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+
+      <div class="section-heading">
+        <p class="eyebrow">LET'S SAY HELLO</p>
+        <h2>I'd Love to Hear From You! <span>♡</span></h2>
+
+        <p>
+          Have a question, want to talk about a project, or simply
+          want to say hi? Leave me a little message.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+
+        <article class="card contact-info">
+          <span class="card-icon">💌</span>
+          <h3>Let's Connect</h3>
+
+          <p>
+            I'd be happy to hear from classmates, friends,
+            and fellow learners.
+          </p>
+
+          <p>
+            <strong>Email:</strong> Add your email address
+          </p>
+
+          <p>
+            <strong>Phone:</strong> Add your preferred contact number
+          </p>
+
+          <p class="small-note">
+            Only share contact information you are comfortable
+            making public.
+          </p>
+        </article>
+
+        <form class="card contact-form" id="contactForm">
+
+          <label for="visitorName">Your Name</label>
+          <input
+            id="visitorName"
+            name="visitorName"
+            type="text"
+            placeholder="What should I call you?"
+            autocomplete="name"
+            required
+          >
+
+          <label for="visitorEmail">Your Email</label>
+          <input
+            id="visitorEmail"
+            name="visitorEmail"
+            type="email"
+            placeholder="you@example.com"
+            autocomplete="email"
+            required
+          >
+
+          <label for="visitorMessage">Your Message</label>
+          <textarea
+            id="visitorMessage"
+            name="visitorMessage"
+            rows="4"
+            placeholder="Write something nice..."
+            required
+          ></textarea>
+
+          <button class="btn primary" type="submit">
+            Send a Little Hello ♡
+          </button>
+
+          <p class="form-note" id="formNote" role="status"></p>
+
+          <button class="btn secondary export-btn" id="exportMessagesBtn" type="button">Download Message Database (.txt)</button>
+          <p class="form-note">Messages are saved in this browser until you clear its site data. Download the text file to keep a copy.</p>
+
+        </form>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <a class="logo" href="#home">car<span>♡</span></a>
+
+    <p>Made with care, creativity, and lots of pastel colors.</p>
+
+    <p>
+      © <span id="currentYear"></span>
+      Carla Mae M. Elliot. All rights reserved.
+    </p>
+
+    <a class="back-top" href="#home">Back to the Top ↑</a>
+
+  </footer>
+
+</body>
+</html>
+
+
